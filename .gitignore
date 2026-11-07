@@ -1,0 +1,8 @@
+# Git에서 제외할 대용량/임시 파일 목록 (.gitignore)
+__pycache__/
+*.pyc
+tools/
+*.zip
+*.pt
+*.onnx
+.vscode/
