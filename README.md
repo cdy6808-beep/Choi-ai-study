@@ -35,4 +35,5 @@ cd ~/Choi-ai-study && git pull && python go.py
 | **`ibapda_arduino_bridge.py`** | 🔌 `COM5` 아두이노 ➔ `ibaPDA` 실시간 연동 브릿지 (Modbus TCP & UDP) |
 | **`rea_arduino_pda_suite.py`** | 🔬 REA 역공학 분석 워크벤치 & 아두이노 13번 LED 점멸 실시간 인식 Open-PDA |
 | **`starcraft_ai_dda.py`** | ⚔️ 스타크래프트 싱글플레이 × AI 동적 난이도 조절(DDA) 전술 시뮬레이터 |
+| **`baseball_game.py`** | ⚾ [올인원 야구 슈퍼 스튜디오] 실전 배팅 9이닝 아케이드 & 두뇌 추리 숫자야구 AI |
 | **`REA_분석_리포트.md`** | 📄 아두이노 13번 핀 점멸 펌웨어 REA 역공학 분석 및 재설계 리포트 |

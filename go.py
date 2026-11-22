@@ -16,16 +16,19 @@ def main():
         print("\033[1;96m====================================================\033[0m")
         print("  [1] 🏭 실습 1: 휴대용 스마트 PLC/4~20mA 필드 진단기")
         print("  [2] 📊 기본 데모: 펌프 기동 오버슈팅 배제 컬러 차트")
-        print("  [3] 🔄 GitHub에서 최신 코드 자동 업데이트 받기 (git pull)")
+        print("  [3] ⚾ 올인원 야구 게임 (실전 배팅 & 두뇌 숫자야구 AI 대결)")
+        print("  [4] 🔄 GitHub에서 최신 코드 자동 업데이트 받기 (git pull)")
         print("  [q] 종료")
         print("\033[1;96m====================================================\033[0m")
-        sel = input("\n👉 실행할 번호(1~3)를 누르고 엔터를 치세요: ").strip().lower()
+        sel = input("\n👉 실행할 번호(1~4)를 누르고 엔터를 치세요: ").strip().lower()
 
         if sel == "1":
             subprocess.run([sys.executable, "termux_1_field_tester.py"])
         elif sel == "2":
             subprocess.run([sys.executable, "termux_cli_demo.py"])
         elif sel == "3":
+            subprocess.run([sys.executable, "baseball_game.py"])
+        elif sel == "4":
             subprocess.run(["git", "pull"])
             input("\n✅ 업데이트 완료! 엔터를 누르면 메뉴로 돌아갑니다...")
         elif sel == "q":
